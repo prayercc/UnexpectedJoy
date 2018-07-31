@@ -1,0 +1,53 @@
+html{
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+a {
+  color:#fff;
+  text-decoration: none;
+}
+#box {
+  position: fixed;
+  width:70%;
+  height:80%;
+  margin-left:15%;
+  margin-top:5%;
+}
+#box ul {
+  margin: 0;
+  padding: 0;
+}
+#box li{
+  display: inline-table;
+  margin-top:2%;
+  width:48%;
+  height:40%;
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Axure Handwriting', 'STLiti', 'STXinwei';
+  list-style: none;
+  border-radius: 4px;
+  text-shadow: 1px 1px 1px #cecece;
+  background-color: #409EFF;
+  opacity: 0.9;
+}
+#box li:nth-child(2){
+  margin-left:2%;
+  background-color: #67C23A;
+}
+#box li:nth-child(3){
+  background-color: #E6A23C;
+}
+#box li:last-child{
+  margin-left:2%;
+  background-color: #F56C6C;
+}
+#box li a {
+  display: table-cell;
+  vertical-align:middle;
+}
