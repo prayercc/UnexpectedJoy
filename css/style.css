@@ -36,6 +36,12 @@ a {
   background-color: #409EFF;
   opacity: 0.9;
 }
+#box li:active {
+  box-shadow: 1px 1px 2px #666;
+}
+#box li:hover {
+  opacity: 1;
+}
 #box li:nth-child(2){
   margin-left:2%;
   background-color: #67C23A;

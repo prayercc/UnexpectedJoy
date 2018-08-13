@@ -1,0 +1,71 @@
+.blackbord {
+  position:fixed;
+  width: 30%;
+  margin-top:10%;
+  margin-left:35%;
+  text-align: center;
+}
+.tag {
+  display: table;
+  width:400px;
+  height:100px;
+  margin: 100px auto 0 auto;
+  border-radius: 4px;
+  background-color: #409EFF;
+  /* animation */
+  -webkit-animation: myfirst 8s linear .2s infinite alternate;	/* Safari 和 Chrome */
+     -moz-animation: myfirst 8s linear .2s infinite alternate; 	/* Firefox */
+       -o-animation: myfirst 8s linear .2s infinite alternate;	/* Opera */
+          animation: myfirst 8s linear .2s infinite alternate;
+}
+.tag span {
+  display: table-cell;
+  font-size: 60px;
+  font-family: 'Axure Handwriting', 'STLiti', 'STXinwei';
+  vertical-align:middle;
+  text-shadow: 1px 1px 1px #cecece;
+  box-shadow: 1px 1px 10px #666;
+  cursor:
+}
+.startBtn {
+  display: inline-block;
+  height: 80px;
+  width:80px;
+  font-size: 25px;
+  line-height: 80px;
+  background-color: #fff;
+  border: 5px outset #409EFF;
+  border-radius: 50%;
+  box-shadow: -1px 1px 2px #000;
+  cursor: pointer;
+}
+.startBtn:active {
+  border-style: inset;
+}
+@keyframes myfirst {
+  30% {transform: rotate(-15deg);}
+  50 {transform: rotate(0deg);}
+  80% {transform: rotate(15deg);}
+  100%{ transform: rotate(0deg);}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+  30% {-moz-transform: rotate(-15deg);}
+  50 {-moz-transform: rotate(0deg);}
+  80% {-moz-transform: rotate(15deg);}
+  100%{-moz-transform: rotate(0deg);}
+}
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+  30% {-webkit-transform: rotate(-15deg);	/* Safari and Chrome */}
+  50 {-webkit-transform : rotate(0deg);	/* Safari and Chrome */}
+  80% {-webkit-transform: rotate(15deg);	/* Safari and Chrome */}
+  100%{-webkit-transform: rotate(0deg);	/* Safari and Chrome */}
+}
+@-o-keyframes myfirst /* Opera */
+{
+  30% {-o-transform: rotate(-15deg);		/* Opera */}
+  50 {-o-transform: rotate(0deg);		/* Opera */}
+  80% {-o-transform: rotate(15deg);		/* Opera */}
+  100%{-o-transform: rotate(0deg);		/* Opera */}
+}
