@@ -8,7 +8,7 @@ CSS(3)
 JavaScript
 Vue
 
-###DEMO:  http://www.prayercc.xyz/library/UnexpectedJoy/index.html
+
 
 
 #18/08/13    add base export page
