@@ -1,15 +1,15 @@
 .blackbord {
-  position:fixed;
-  width: 30%;
-  margin-top:10%;
-  margin-left:35%;
+  position: absolute;
+  /*display: none;*/
+  top: 3%;
+  left: 4%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 .tag {
   display: table;
-  width:400px;
-  height:100px;
-  margin: 100px auto 0 auto;
+  width:200px;
+  height:50px;
   border-radius: 4px;
   background-color: #409EFF;
   /* animation */
@@ -20,52 +20,90 @@
 }
 .tag span {
   display: table-cell;
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-family: 'Axure Handwriting', 'STLiti', 'STXinwei';
   vertical-align:middle;
   text-shadow: 1px 1px 1px #cecece;
   box-shadow: 1px 1px 10px #666;
-  cursor:
 }
 .startBtn {
   display: inline-block;
-  height: 80px;
-  width:80px;
-  font-size: 25px;
-  line-height: 80px;
+  height: 50px;
+  width:50px;
+  /*font-size: 25px;*/
+  line-height: 50px;
   background-color: #fff;
   border: 5px outset #409EFF;
   border-radius: 50%;
   box-shadow: -1px 1px 2px #000;
-  cursor: pointer;
 }
 .startBtn:active {
   border-style: inset;
 }
 @keyframes myfirst {
   30% {transform: rotate(-15deg);}
-  50 {transform: rotate(0deg);}
+  50% {transform: rotate(0deg);}
   80% {transform: rotate(15deg);}
   100%{ transform: rotate(0deg);}
 }
 @-moz-keyframes myfirst /* Firefox */
 {
   30% {-moz-transform: rotate(-15deg);}
-  50 {-moz-transform: rotate(0deg);}
+  50% {-moz-transform: rotate(0deg);}
   80% {-moz-transform: rotate(15deg);}
   100%{-moz-transform: rotate(0deg);}
 }
 @-webkit-keyframes myfirst /* Safari 和 Chrome */
 {
   30% {-webkit-transform: rotate(-15deg);	/* Safari and Chrome */}
-  50 {-webkit-transform : rotate(0deg);	/* Safari and Chrome */}
+  50% {-webkit-transform : rotate(0deg);	/* Safari and Chrome */}
   80% {-webkit-transform: rotate(15deg);	/* Safari and Chrome */}
   100%{-webkit-transform: rotate(0deg);	/* Safari and Chrome */}
 }
 @-o-keyframes myfirst /* Opera */
 {
   30% {-o-transform: rotate(-15deg);		/* Opera */}
-  50 {-o-transform: rotate(0deg);		/* Opera */}
+  50% {-o-transform: rotate(0deg);		/* Opera */}
   80% {-o-transform: rotate(15deg);		/* Opera */}
   100%{-o-transform: rotate(0deg);		/* Opera */}
+}
+
+/*experienceList*/
+.experienceList {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  padding: 10px 20px;
+  /*border: 1px solid #ddd;*/
+  border-radius: 3px;
+  
+}
+.experience {
+  width: 32%;
+  height: 400px;
+  margin-bottom: 20px;
+  background: url("../img/articlebg.png");
+  box-shadow: 1px 1px 1px PaleVioletRed;
+  border-radius: 3px;
+}
+.expPic {
+  width: 100%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.expPic img {
+  width: 100%;
+  border-radius: 3px;
+}
+.expText span {
+  padding-left: 10px;
+  font-size: 30px;
+  line-height: 60px;
+  text-shadow: 1px 1px 1px #cecece;
 }

@@ -24,6 +24,8 @@ html {
 
 body {
   margin: 0;
+  background: pink;
+  overflow-x: hidden; 
 }
 
 /**
